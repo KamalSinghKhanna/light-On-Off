@@ -1,0 +1,38 @@
+  body{
+            box-sizing: border-box;
+            background-color: blueviolet;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            /* color: #fff; */
+        }
+        .main-heading{
+            margin-bottom: 20px;
+        }
+        h1{
+            background-color: aqua;
+            border: 5px rgb(77, 74, 74) solid;
+        }
+       
+
+        button {
+            display: inline-block;
+            background-color: yellow;
+            cursor: pointer;
+            color: #8a8787;
+            font-size: 16px;
+            font-weight: normal;
+            text-align: center;
+            border-radius: 3px;
+            transition: 400ms;
+            text-decoration: none;
+            padding: 10px;
+            z-index: 100000;
+
+        }
+        img {
+            height: 200px;
+            width: 250px;
+        }
